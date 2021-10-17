@@ -1,0 +1,39 @@
+name: pruebita001
+description: A new flutter module project.
+
+publish_to: 'none' #nuevo
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  google_maps_flutter: ^2.0.11   #^2.0.6
+  google_maps_flutter_web: ^0.3.2   #^0.3.0+1
+  provider: ^5.0.0
+  uuid: ^3.0.4
+  json_serializable: ^5.0.2 #nuevo
+  http: ^0.13.4 #nuevo
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+  build_runner: ^2.1.4 #nuevo
+
+flutter:
+  assets:
+    - assets/
+
+  uses-material-design: true
+
+  module:
+    androidX: true
+    androidPackage: com.example.pruebita001
+    iosBundleIdentifier: com.example.pruebita001
